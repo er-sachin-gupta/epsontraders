@@ -133,7 +133,7 @@ h4, h5, h6 {
 
 body > section,
 .section {
-    padding: 100px 0;
+    padding: 70px 0;
     background-color: #fff;
 }
 
@@ -26801,7 +26801,7 @@ body.boxed {
 
 .bordered > section:not(.travel-wrapper):not(#start):not(#footer_canvas):not(.parallax-subs):not(.contact3),
 .main-wrapper > section:not(.travel-wrapper):not(#start):not(#footer_canvas):not(.parallax-subs):not(.contact3) {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 .main-wrapper.boxed .sticky-header.on,
