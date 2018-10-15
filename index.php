@@ -114,60 +114,13 @@
     </div>
 
     <!--
-    Home Banner
-    ==================================== -->
-    <!--<div id="start" class="home26">
-        <div class="slide26 wedding">
-            <div class="item" style="background-image: url(image/jmkb1.jpg);">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="item-inner">
-                        <h1>We Are Professional, Competitive And</h1>
-                        <h2>Competent In Our Service</h2>
-                        <div class="slide-button">
-                            <a href="#portfolio">Check Portfolio</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(image/ckmb1.jpg);">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="item-inner">
-                        <h1>We Have a Team Of Leaders And Professionals</h1>
-                        <h2>That Know Their Job And Do It Well</h2>
-                        <div class="slide-button">
-                            <a href="#portfolio">Check Portfolio</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(image/fkmb1.jpg);">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="item-inner">
-                        <h1>We Are Professional, Competitive And</h1>
-                        <h2>Competent In Our Service</h2>
-                        <div class="slide-button">
-                            <a href="#portfolio">Check Portfolio</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!--
-    End Home Banner
-    ==================================== -->
-
-    <!--
     Services
     ==================================== -->
     <section id="service" class="">
         <div class="container">
             <div class="row">
                 <header class="col-lg-12 section-head text-center item_top">
-                    <h2>APSON TRADERS LLP</h2>
+                    <h2>APSON TRADERS</h2>
                     <p>Apson Traders Company is an industry leader in the new and used material handling equipment market. Apson primarily buys, sells and trades newly and used forklifts and related equipment - working with industrial businesses in China, Europe, USA, UK and Canada. Apson is a privately held organization headquartered in the Zirakpur, Chandigarh (India).</p>
                     <p>We specialize in locating and selling machinery, equipment, parts & accessories. We have a wide variety of textile machinery and equipment in stock and carry many hard to find parts and accessories for almost every type of textile process. We also supply a variety of process and manufacturing equipment for paper, plastic and other industries.</p>
                 </header>
