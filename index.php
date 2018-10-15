@@ -99,6 +99,20 @@
     <!--
     End Navigation
     ==================================== -->
+
+    <div class="page-head parallax">
+        <div class="overlay">
+            <div class="container">
+                <div class="row page-head-title text-center">
+                    <div class="col-md-12 col-lg-offset-1 col-lg-10">
+                        <h1>APSON TRADERS LLP</h1>
+                        <p>Buy / Sell / Trade -  New and Used Material Handling Equipment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--
     Home Banner
     ==================================== -->
@@ -206,13 +220,6 @@
                         <div class="post-media">
                             <img class="img-responsive" alt="post thumb" src="img/industry/welcome.jpg">
                         </div>
-                        <div class="post-excerpt">
-                            <h2>Welcome to Eydia</h2>
-                            <p>Oligula nibh, molest ie id viverra a, at the dapibuLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            <div class="excerpt-btn">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
                     </article>
                 </div>
 
@@ -221,66 +228,21 @@
                         <h2>Our Mission</h2>
                         <p>At Apson Traders LLP, we believe quality material handling equipment can be affordable. It was this belief that started this company 4 years ago, and it is this focus that continues to expand our company.  Our knowledge and experience in the material handling industry enables us to successfully meet your equipment needs, and our team mentality helps us do it right. With inventory delivered daily, our equipment includes electric forklifts, pneumatic tire forklifts, cushion tire forklifts, order pickers, reach trucks, aerial lifts, skid steer loaders, construction equipment and more</p>
                     </div>
-                    <div class="product-carousel3">
-                        <div class="service-carousel">
-                            <div class="item">
-                                <div class="product-single">
-                                    <div class="product-image">
-                                        <img class="img-responsive" alt="" src="img/industry/product1.jpg">
-                                    </div>
-                                    <div class="product-title">
-                                        <div class="title-wrap">
-                                                    <span class="quick-view">
-                                                        <a class="ajax-view" href="product-wed.html">Quick View</a>
-                                                    </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="product-single">
-                                    <div class="product-image">
-                                        <img class="img-responsive" alt="" src="img/industry/product2.jpg">
-                                    </div>
-                                    <div class="product-title">
-                                        <div class="title-wrap">
-                                                    <span class="quick-view">
-                                                        <a class="ajax-view" href="product-wed.html">Quick View</a>
-                                                    </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="product-single">
-                                    <div class="product-image">
-                                        <img class="img-responsive" alt="" src="img/industry/product3.jpg">
-                                    </div>
-                                    <div class="product-title">
-                                        <div class="title-wrap">
-                                                    <span class="quick-view">
-                                                        <a class="ajax-view" href="product-wed.html">Quick View</a>
-                                                    </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="product-single">
-                                    <div class="product-image">
-                                        <img class="img-responsive" alt="" src="img/industry/product2.jpg">
-                                    </div>
-                                    <div class="product-title">
-                                        <div class="title-wrap">
-                                                    <span class="quick-view">
-                                                        <a class="ajax-view" href="product-wed.html">Quick View</a>
-                                                    </span>
-                                        </div>
-                                    </div>
-                                </div>
+                </div>
+            </div>
+            <div class="row margin_top20">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <article class="post-entry">
+                        <div class="post-excerpt">
+                            <h2>Your source for new finds everyday</h2>
+                            <p>We routinely work with large financial institutions, banks and leasing companies and are called upon daily to evaluate, appraise, auction and to purchase machinery and equipment. We can also act as agents for receivers, in-cases of plant closings and bankruptcy sales.</p>
+                            <h2 class="padding_top40">Can't find what you're looking for?</h2>
+                            <p>We enjoy supplying our customers with the quality of service that they are entitled to. If you don't see a particular item on our website, chances are that we can get it.</p>
+                            <div class="excerpt-btn">
+                                <a href="contact.php">Contact Us</a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
         </div>
