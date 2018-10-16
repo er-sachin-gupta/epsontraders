@@ -115,90 +115,64 @@
         </div>
     </div>
 
-    <!--
-    Services
-    ==================================== -->
-    <section id="service" class="">
+    <section class="page-sec-head">
         <div class="container">
             <div class="row">
-                <header class="col-lg-12 section-head text-center item_top">
-                    <h2>APSON TRADERS</h2>
-                    <p>Apson Traders Company is an industry leader in the new and used material handling equipment market. Apson primarily buys, sells and trades newly and used forklifts and related equipment - working with industrial businesses in China, Europe, USA, UK and Canada. Apson is a privately held organization headquartered in the Zirakpur, Chandigarh (India).</p>
-                    <p>We specialize in locating and selling machinery, equipment, parts & accessories. We have a wide variety of textile machinery and equipment in stock and carry many hard to find parts and accessories for almost every type of textile process. We also supply a variety of process and manufacturing equipment for paper, plastic and other industries.</p>
-                </header>
-
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 col-md-4 text-center item_left">
-                            <div class="service-item">
-                                        <span class="service-icon">
-                                            <i class="icon-trophy22"></i>
-                                        </span>
-                                <h4><a href="service-single.php">High Quality</a></h4>
-                                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>-->
-                            </div>
-                        </div> <!-- end .service-item -->
-
-                        <div class="col-xs-12 col-sm-4 col-md-4 text-center item_bottom">
-                            <div class="service-item">
-                                        <span class="service-icon">
-                                            <i class="icon-thumbs-up"></i>
-                                        </span>
-                                <h4><a href="service-single.php">Extremely Long Lasting</a></h4>
-                                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>-->
-                            </div>
-                        </div> <!-- end .service-item -->
-
-                        <div class="col-xs-12 col-sm-4 col-md-4 text-center item_right">
-                            <div class="service-item">
-                                        <span class="service-icon">
-                                            <i class="icon-user"></i>
-                                        </span>
-                                <h4><a href="service-single.php">User Friendly Solutions</a></h4>
-                                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>-->
-                            </div>
-                        </div> <!-- end .service-item -->
-                    </div>
+                <div class="col-md-offset-1  col-md-10 text-center">
+                    <h1>about our company</h1>
+                    <p>Apson Traders LLP is India’s leading and most trusted trading company across the globe started in 2014 by young group of Professionals. deals in old and new machines trading. Now  the company has grown tremendously and now conducts business worldwide. Apson Traders LLP enjoys working worldwide, with not only fellow dealers, but also with as network of customers and clientele, both inside and outside of the textile industry. We offer the perfect synergy of experience, automation technology and scale to advance factory automation solutions for the world's leading manufacturers.</p>
+                    <p>We established longer and closer working relationships with our clients and supplier not only provide immediate and reliable service but to continually exceed expectations and goals.
+                        We create commercial flows, import and export products, arranging and managing international projects with our partners.
+                    </p>
+                    <p>
+                        We enjoy supplying our customers with the quality of service that they are entitled to. If you don't see a particular item on our website, chances are that we can get it.
+                    </p>
+                    <p>
+                        We focus on trading textile machinery and Automation machinery.  With our rich experience and considerate services, we have been recognized as a reliable supplier for many national and International buyers.
+                    </p>
+                    <p>
+                        Our products sell well in domestic and international markets, such as China, Europe, USA, UK, Canada, so on... and are favorably appraised by clients.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
-    <!--
-    End Services
-    ==================================== -->
 
-    <section class="pt0">
+    <section class="page-sec-head">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
-                    <article class="post-entry">
-                        <div class="post-media">
-                            <img class="img-responsive" alt="post thumb" src="img/industry/welcome.jpg">
-                        </div>
-                    </article>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
-                    <div class="section-head text-left item_top">
-                        <h2>Our Mission</h2>
-                        <p>At Apson Traders LLP, we believe quality material handling equipment can be affordable. It was this belief that started this company 4 years ago, and it is this focus that continues to expand our company.  Our knowledge and experience in the material handling industry enables us to successfully meet your equipment needs, and our team mentality helps us do it right. With inventory delivered daily, our equipment includes electric forklifts, pneumatic tire forklifts, cushion tire forklifts, order pickers, reach trucks, aerial lifts, skid steer loaders, construction equipment and more</p>
-                    </div>
+                <div class="col-md-offset-1  col-md-10 text-center">
+                    <h1>Our Working Model</h1>
                 </div>
             </div>
-            <div class="row margin_top20">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                    <article class="post-entry">
-                        <div class="post-excerpt">
-                            <h2>Your source for new finds everyday</h2>
-                            <p>We routinely work with large financial institutions, banks and leasing companies and are called upon daily to evaluate, appraise, auction and to purchase machinery and equipment. We can also act as agents for receivers, in-cases of plant closings and bankruptcy sales.</p>
-                            <h2 class="padding_top40">Can't find what you're looking for?</h2>
-                            <p>We enjoy supplying our customers with the quality of service that they are entitled to. If you don't see a particular item on our website, chances are that we can get it.</p>
-                            <div class="excerpt-btn">
-                                <a href="contact.php">Contact Us</a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
+
+            <div class="row blue-bg" style="margin-top: 40px;">
+                <div class="col-xs-12 col-md-4 text-center item_left">
+                    <div class="service-item">
+                                <span class="service-icon">
+                                    <i class="icon-business"></i>
+                                </span>
+                        <h4>Purchasing Products</h4>
+                    </div>
+                </div> <!-- end .service-item -->
+
+                <div class="col-xs-12 col-md-4 text-center item_bottom">
+                    <div class="service-item">
+                                <span class="service-icon">
+                                    <i class="icon-light"></i>
+                                </span>
+                        <h4>Testing it for User Experience</h4>
+                    </div>
+                </div> <!-- end .service-item -->
+
+                <div class="col-xs-12 col-md-4 text-center item_right">
+                    <div class="service-item">
+                                <span class="service-icon">
+                                    <i class="icon-ambulance"></i>
+                                </span>
+                        <h4>Selling in the Market</h4>
+                    </div>
+                </div> <!-- end .service-item -->
             </div>
         </div>
     </section>

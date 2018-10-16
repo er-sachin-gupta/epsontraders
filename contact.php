@@ -116,99 +116,77 @@
     </div>
 
     <!--
-    Services
+    Contact
     ==================================== -->
-    <section id="service" class="">
+    <section id="contact" class="contact">
         <div class="container">
-            <div class="row">
-                <header class="col-lg-12 section-head text-center item_top">
-                    <h2>APSON TRADERS</h2>
-                    <p>Apson Traders Company is an industry leader in the new and used material handling equipment market. Apson primarily buys, sells and trades newly and used forklifts and related equipment - working with industrial businesses in China, Europe, USA, UK and Canada. Apson is a privately held organization headquartered in the Zirakpur, Chandigarh (India).</p>
-                    <p>We specialize in locating and selling machinery, equipment, parts & accessories. We have a wide variety of textile machinery and equipment in stock and carry many hard to find parts and accessories for almost every type of textile process. We also supply a variety of process and manufacturing equipment for paper, plastic and other industries.</p>
+
+            <div class="row contact-page">
+                <header class="col-md-8 col-md-offset-2 section-head text-center item_top">
+                    <h2>contact us</h2>
+                    <p>Write to us to know anything about our products.</p>
                 </header>
 
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 col-md-4 text-center item_left">
-                            <div class="service-item">
-                                        <span class="service-icon">
-                                            <i class="icon-trophy22"></i>
-                                        </span>
-                                <h4><a href="service-single.php">High Quality</a></h4>
-                                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>-->
-                            </div>
-                        </div> <!-- end .service-item -->
+                <div class="col-md-9 item_left">
+                    <div id="">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4082.3473335498734!2d76.81751519839106!3d30.63871337458846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feb29503b5331%3A0xf6bdb7d0c16a14c5!2sChandigarh+Citi+Center!5e0!3m2!1sen!2sin!4v1539251675464" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
 
-                        <div class="col-xs-12 col-sm-4 col-md-4 text-center item_bottom">
-                            <div class="service-item">
-                                        <span class="service-icon">
-                                            <i class="icon-thumbs-up"></i>
-                                        </span>
-                                <h4><a href="service-single.php">Extremely Long Lasting</a></h4>
-                                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>-->
-                            </div>
-                        </div> <!-- end .service-item -->
-
-                        <div class="col-xs-12 col-sm-4 col-md-4 text-center item_right">
-                            <div class="service-item">
-                                        <span class="service-icon">
-                                            <i class="icon-user"></i>
-                                        </span>
-                                <h4><a href="service-single.php">User Friendly Solutions</a></h4>
-                                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>-->
-                            </div>
-                        </div> <!-- end .service-item -->
+                <div class="col-md-3 item_right">
+                    <div class="address">
+                        <h5>Headquarter</h5>
+                        <p><i class="fa fa-map-marker"></i>372/B, 3rd floor, Chandigarh Citi Center, Zirakpur - 140603, Punjab (India)</p>
+                        <p><i class="fa fa-phone"></i>Phone: +91.9814378535</p>
+                        <p><i class="fa fa-envelope"></i><a href="mailto:info@apsontraders.com">info@apsontraders.com</a></p>
+                        <p><i class="fa fa-link"></i><a target="_blank" href="http://www.apsontraders.com">www.apsontraders.com</a></p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--
-    End Services
-    ==================================== -->
 
-    <section class="pt0">
-        <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
-                    <article class="post-entry">
-                        <div class="post-media">
-                            <img class="img-responsive" alt="post thumb" src="img/industry/welcome.jpg">
+                <div class="col-md-9 item_left">
+                    <form action="#" method="post" id="contact-form" class="row contact-form">
+                        <div class="col-md-6">
+                            <input type="text" name="fname" placeholder="First Name" required class="form-control">
                         </div>
-                    </article>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
-                    <div class="section-head text-left item_top">
-                        <h2>Our Mission</h2>
-                        <p>At Apson Traders LLP, we believe quality material handling equipment can be affordable. It was this belief that started this company 4 years ago, and it is this focus that continues to expand our company.  Our knowledge and experience in the material handling industry enables us to successfully meet your equipment needs, and our team mentality helps us do it right. With inventory delivered daily, our equipment includes electric forklifts, pneumatic tire forklifts, cushion tire forklifts, order pickers, reach trucks, aerial lifts, skid steer loaders, construction equipment and more</p>
+                        <div class="col-md-6">
+                            <input type="text" name="lname" placeholder="Last Name" required class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" name="email" placeholder="Email" required class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="subject" placeholder="Subject" required class="form-control">
+                        </div>
+                        <div class="col-md-12">
+                            <textarea name="message" class="form-control" required placeholder="Message"></textarea>
+                            <input type="submit" value="Send Message" class="message-sub pull-right btn btn-blue">
+                        </div>
+                    </form>
+                    <div id="success">
+                        <p>Your message was sent succssfully! I will be in touch as soon as I can.</p>
+                    </div>
+                    <div id="error">
+                        <p>Something went wrong, try refreshing and submitting the form again.</p>
                     </div>
                 </div>
+
+                <!--<div class="col-md-3 item_right">
+                    <div class="address">
+                        <h5>Factoy Location</h5>
+                        <p><i class="fa fa-map-marker"></i></p>
+                        <p><i class="fa fa-phone"></i>Phone: </p>
+                        <p><i class="fa fa-envelope"></i></p>
+                        <p><i class="fa fa-link"></i></p>
+                    </div>
+                </div>-->
             </div>
-            <div class="row margin_top20">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                    <article class="post-entry">
-                        <div class="post-excerpt">
-                            <h2>Your source for new finds everyday</h2>
-                            <p>We routinely work with large financial institutions, banks and leasing companies and are called upon daily to evaluate, appraise, auction and to purchase machinery and equipment. We can also act as agents for receivers, in-cases of plant closings and bankruptcy sales.</p>
-                            <h2 class="padding_top40">Can't find what you're looking for?</h2>
-                            <p>We enjoy supplying our customers with the quality of service that they are entitled to. If you don't see a particular item on our website, chances are that we can get it.</p>
-                            <div class="excerpt-btn">
-                                <a href="contact.php">Contact Us</a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
+
         </div>
     </section>
-
     <!--
-   Values
-   ==================================== -->
-    <?php include 'includes/values.php'; ?>
-    <!--
-    End VAlues
+    End Contact
     ==================================== -->
 
     <!--
