@@ -135,47 +135,47 @@
                                 <a data-lightbox="service" href="images/products/G-9629.jpg"></a>
                             </div>
                         </figure>
-                        <h4><a href="service-single.php">NARROW FABRIC LOOM G-9629</a></h4>
+                        <h4><a href="#">NARROW FABRIC LOOM G-9629</a></h4>
                         <p><strong>Manufacturer:</strong> Muller, <strong>Model:</strong> NBTR 4-55</p>
+                    </div>
+                </div> <!-- end .service-item -->
+
+                <div class="col-xs-12 col-md-3 text-center item_left">
+                    <div class="service-item">
+                        <figure class="service-thumb">
+                            <img class="img-responsive" alt="CIRCULAR KNITTING MACHINE H-9764" src="images/products/H-9764.jpg">
+                            <div class="mask">
+                                <a data-lightbox="service" href="images/products/H-9764.jpg"></a>
+                            </div>
+                        </figure>
+                        <h4><a href="#">CIRCULAR KNITTING MACHINE H-9764</a></h4>
+                        <p> - </p>
                     </div>
                 </div> <!-- end .service-item -->
 
             <div class="col-xs-12 col-md-3 text-center item_left">
                 <div class="service-item">
                     <figure class="service-thumb">
-                        <img class="img-responsive" alt="CIRCULAR KNITTING MACHINE H-9764" src="images/products/H-9764.jpg">
+                        <img class="img-responsive" alt="sergers, overlock sewing machine D-9927" src="images/products/D-9927.jpg">
                         <div class="mask">
-                            <a data-lightbox="service" href="images/products/H-9764.jpg"></a>
+                            <a data-lightbox="service" href="images/products/G-9629.jpg"></a>
                         </div>
                     </figure>
-                    <h4><a href="service-single.php">CIRCULAR KNITTING MACHINE H-9764</a></h4>
-                    <p> - </p>
+                    <h4><a href="#">Sergers, overlock sewing machine D-9927</a></h4>
+                    <p><strong>Manufacturer:</strong> willcox & gibbs, <strong>Model:</strong> 515-4-26</p>
                 </div>
             </div> <!-- end .service-item -->
 
             <div class="col-xs-12 col-md-3 text-center item_left">
                 <div class="service-item">
                     <figure class="service-thumb">
-                        <img class="img-responsive" alt="NARROW FABRIC LOOM G-9629" src="images/products/G-9629.jpg">
+                        <img class="img-responsive" alt="blindstitch sewing machine D-9925" src="images/products/D-9925.jpg">
                         <div class="mask">
-                            <a data-lightbox="service" href="images/products/G-9629.jpg"></a>
+                            <a data-lightbox="service" href="images/products/D-9925.jpg"></a>
                         </div>
                     </figure>
-                    <h4><a href="service-single.php">NARROW FABRIC LOOM G-9629</a></h4>
-                    <p><strong>Manufacturer:</strong> Muller, <strong>Model:</strong> NBTR 4-55</p>
-                </div>
-            </div> <!-- end .service-item -->
-
-            <div class="col-xs-12 col-md-3 text-center item_left">
-                <div class="service-item">
-                    <figure class="service-thumb">
-                        <img class="img-responsive" alt="NARROW FABRIC LOOM G-9629" src="images/products/G-9629.jpg">
-                        <div class="mask">
-                            <a data-lightbox="service" href="images/products/G-9629.jpg"></a>
-                        </div>
-                    </figure>
-                    <h4><a href="service-single.php">NARROW FABRIC LOOM G-9629</a></h4>
-                    <p><strong>Manufacturer:</strong> Muller, <strong>Model:</strong> NBTR 4-55</p>
+                    <h4><a href="#">Blindstitch sewing machine D-9925</a></h4>
+                    <p><strong>Manufacturer:</strong> Lewis, <strong>Model:</strong> 150-2</p>
                 </div>
             </div> <!-- end .service-item -->
         </div>
@@ -184,52 +184,52 @@
             <div class="col-xs-12 col-md-3 text-center item_left">
                 <div class="service-item">
                     <figure class="service-thumb">
-                        <img class="img-responsive" alt="NARROW FABRIC LOOM G-9629" src="images/products/G-9629.jpg">
+                        <img class="img-responsive" alt="TWISTER C-1479" src="images/products/C-1479.jpg">
                         <div class="mask">
-                            <a data-lightbox="service" href="images/products/G-9629.jpg"></a>
+                            <a data-lightbox="service" href="images/products/C-1479.jpg"></a>
                         </div>
                     </figure>
-                    <h4><a href="service-single.php">NARROW FABRIC LOOM G-9629</a></h4>
-                    <p><strong>Manufacturer:</strong> Muller, <strong>Model:</strong> NBTR 4-55</p>
+                    <h4><a href="#">TWISTER C-1479</a></h4>
+                    <p> - </p>
                 </div>
             </div> <!-- end .service-item -->
 
             <div class="col-xs-12 col-md-3 text-center item_left">
                 <div class="service-item">
                     <figure class="service-thumb">
-                        <img class="img-responsive" alt="NARROW FABRIC LOOM G-9629" src="images/products/G-9629.jpg">
+                        <img class="img-responsive" alt="Thread saver & rewinder D-9922" src="images/products/D-9922.jpg">
                         <div class="mask">
-                            <a data-lightbox="service" href="images/products/G-9629.jpg"></a>
+                            <a data-lightbox="service" href="images/products/D-9922.jpg"></a>
                         </div>
                     </figure>
-                    <h4><a href="service-single.php">NARROW FABRIC LOOM G-9629</a></h4>
-                    <p><strong>Manufacturer:</strong> Muller, <strong>Model:</strong> NBTR 4-55</p>
+                    <h4><a href="#">Thread saver & rewinder D-9922</a></h4>
+                    <p><strong>Manufacturer:</strong> nemko, <strong>Model:</strong> bw 7502</p>
                 </div>
             </div> <!-- end .service-item -->
 
             <div class="col-xs-12 col-md-3 text-center item_left">
                 <div class="service-item">
                     <figure class="service-thumb">
-                        <img class="img-responsive" alt="NARROW FABRIC LOOM G-9629" src="images/products/G-9629.jpg">
+                        <img class="img-responsive" alt="INDUSTRIAL MOTOR L-1119" src="images/products/L-1119.jpg">
                         <div class="mask">
-                            <a data-lightbox="service" href="images/products/G-9629.jpg"></a>
+                            <a data-lightbox="service" href="images/products/L-1119.jpg"></a>
                         </div>
                     </figure>
-                    <h4><a href="service-single.php">NARROW FABRIC LOOM G-9629</a></h4>
-                    <p><strong>Manufacturer:</strong> Muller, <strong>Model:</strong> NBTR 4-55</p>
+                    <h4><a href="#">INDUSTRIAL MOTOR L-1119</a></h4>
+                    <p><strong>Manufacturer:</strong> BALDOR, <strong>Model:</strong> P496</p>
                 </div>
             </div> <!-- end .service-item -->
 
             <div class="col-xs-12 col-md-3 text-center item_left">
                 <div class="service-item">
                     <figure class="service-thumb">
-                        <img class="img-responsive" alt="NARROW FABRIC LOOM G-9629" src="images/products/G-9629.jpg">
+                        <img class="img-responsive" alt="WOODEN EXPANDER ROLL R-9687" src="images/products/R-9687.jpg">
                         <div class="mask">
-                            <a data-lightbox="service" href="images/products/G-9629.jpg"></a>
+                            <a data-lightbox="service" href="images/products/R-9687.jpg"></a>
                         </div>
                     </figure>
-                    <h4><a href="service-single.php">NARROW FABRIC LOOM G-9629</a></h4>
-                    <p><strong>Manufacturer:</strong> Muller, <strong>Model:</strong> NBTR 4-55</p>
+                    <h4><a href="#">WOODEN EXPANDER ROLL R-9687</a></h4>
+                    <p> - </p>
                 </div>
             </div> <!-- end .service-item -->
         </div>

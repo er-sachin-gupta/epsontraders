@@ -509,12 +509,12 @@
 
                 <div class="row">
                     <div class="col-md-9 item_left">
-                        <form action="#" method="post" id="contact-form" class="row contact-form">
+                        <form method="post" name="form" id="form" class="row contact-form" action="sentmail.php">
                             <div class="col-md-6">
-                                <input type="text" name="fname" placeholder="First Name" required class="form-control">
+                                <input type="text" name="name" placeholder="Name" required class="form-control">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="lname" placeholder="Last Name" required class="form-control">
+                                <input type="text" name="phone" placeholder="Phone" required class="form-control">
                             </div>
                             <div class="col-md-6">
                                 <input type="email" name="email" placeholder="Email" required class="form-control">
@@ -523,7 +523,7 @@
                                 <input type="text" name="subject" placeholder="Subject" required class="form-control">
                             </div>
                             <div class="col-md-12">
-                                <textarea name="message" class="form-control" required placeholder="Message"></textarea>
+                                <textarea name="msg" class="form-control" required placeholder="Message"></textarea>
                                 <input type="submit" value="Send Message" class="message-sub pull-right btn btn-blue">
                             </div>
                         </form>
@@ -532,7 +532,7 @@
                         </div>
                         <div id="error">
                              <p>Something went wrong, try refreshing and submitting the form again.</p>
-                        </div> 
+                        </div>
                     </div>
 
                     <!--<div class="col-md-3 item_right">
@@ -689,5 +689,26 @@ End footer widget
         <script src="syntax-highlighter/scripts/prettify.min.js"></script>
         <script type="text/javascript">$.SyntaxHighlighter.init();</script>
         <script type="text/javascript" src="js/main.js"></script>
-    </body>
+        <script type="text/javascript">
+            $("#form").submit(function(e) {
+                e.preventDefault(); // avoid to execute the actual submit of form.
+                    var url = "sentmail.php"; // the script where you handle the form input.
+                    $.ajax({
+                        type: "POST",
+                        url: url,
+                        async:false,
+                        data: $("#form").serialize(), // serializes the form's elements.
+                        success: function(data) {
+                            console.log("Success");
+                            alert(data); // show response from the php script.
+                            //$("#form")[0].reset();
+                        },
+                        error: function(data) {
+                            console.log("Error");
+                            //alert(data);
+                        }
+                    });
+            });
+       </script>
+</body>
 </html>
