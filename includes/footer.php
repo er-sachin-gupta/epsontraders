@@ -36,8 +36,9 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                 <div class="footer-item recent-posts">
-                    <h4>Flickr Stream</h4>
-                    <ul class="flickr-widget clearfix"></ul>
+                    <h4>Location Map</h4>
+                    <!--<ul class="flickr-widget clearfix"></ul>-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4082.3473335498734!2d76.81751519839106!3d30.63871337458846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feb29503b5331%3A0xf6bdb7d0c16a14c5!2sChandigarh+Citi+Center!5e0!3m2!1sen!2sin!4v1539251675464" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

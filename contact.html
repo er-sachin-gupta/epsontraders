@@ -527,12 +527,12 @@
                                 <input type="submit" value="Send Message" class="message-sub pull-right btn btn-blue">
                             </div>
                         </form>
-                        <div id="success">
+                        <!--<div id="success">
                             <p>Your message was sent succssfully! I will be in touch as soon as I can.</p>
                         </div>
                         <div id="error">
                              <p>Something went wrong, try refreshing and submitting the form again.</p>
-                        </div>
+                        </div>-->
                     </div>
 
                     <!--<div class="col-md-3 item_right">
@@ -697,15 +697,15 @@ End footer widget
                         type: "POST",
                         url: url,
                         async:false,
+                        dataType:"json",
                         data: $("#form").serialize(), // serializes the form's elements.
-                        success: function(data) {
-                            console.log("Success");
-                            alert(data); // show response from the php script.
-                            //$("#form")[0].reset();
-                        },
-                        error: function(data) {
-                            console.log("Error");
-                            //alert(data);
+                        success: function (response) {
+                            if(response.status === "success") {
+                                alert(response.message); // show response from the php script.
+                                $("#form")[0].reset();
+                            } else if(response.status === "error") {
+                                alert(response.message);
+                            }
                         }
                     });
             });

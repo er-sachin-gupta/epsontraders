@@ -68,10 +68,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$msgbody = "Following Message is recieved : " . "\n\n" . "Name : " .$name . "\n\n" . "Email : " .$email . "\n\n" . "Phone : " . $phone. "\n\n" . "Subject : " . $subject . "\n\n" . "Message : " . $message . "\n\n". "Thanks";
 
 	if(!empty($Err)){
-		echo 'Please Correct these errors : ' . $Err;
+		/*echo 'Please Correct these errors : ' . $Err;*/
+        echo json_encode(array(
+            'status' => 'error',
+            'message'=> 'Please Correct these errors : '.$Err
+        ));
 	} else {
 		if(true/*mail($to,$msgsubject,$msgbody,$headers)*/){
-			echo 'Message Sent Successfully. We will reply shortly !';
+            echo json_encode(array(
+                'status' => 'success',
+                'message'=> 'Message Sent Successfully. We will reply shortly !'
+            ));
+			//echo 'Message Sent Successfully. We will reply shortly !';
 			//echo $to.' '.$msgsubject.' '.$headers.' '.$msgbody;
 		} else{
 			echo 'Error in Mail';

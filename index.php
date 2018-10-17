@@ -102,18 +102,7 @@
     End Navigation
     ==================================== -->
 
-    <div class="page-head parallax">
-        <div class="overlay">
-            <div class="container">
-                <div class="row page-head-title text-center">
-                    <div class="col-md-12 col-lg-offset-1 col-lg-10">
-                        <h1>APSON TRADERS LLP</h1>
-                        <p>Buy / Sell / Trade -  New and Used Material Handling Equipment</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include 'includes/banner.php';?>
 
     <!--
     Services
@@ -173,7 +162,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
                     <article class="post-entry">
                         <div class="post-media">
-                            <img class="img-responsive" alt="post thumb" src="img/industry/welcome.jpg">
+                            <img class="img-responsive" alt="post thumb" src="image/mission.png">
                         </div>
                     </article>
                 </div>

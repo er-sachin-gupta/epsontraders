@@ -102,18 +102,7 @@
     End Navigation
     ==================================== -->
 
-    <div class="page-head parallax">
-        <div class="overlay">
-            <div class="container">
-                <div class="row page-head-title text-center">
-                    <div class="col-md-12 col-lg-offset-1 col-lg-10">
-                        <h1>APSON TRADERS LLP</h1>
-                        <p>Buy / Sell / Trade -  New and Used Material Handling Equipment</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include 'includes/banner.php';?>
 
     <!--
     Contact
@@ -146,12 +135,12 @@
 
             <div class="row">
                 <div class="col-md-9 item_left">
-                    <form action="#" method="post" id="contact-form" class="row contact-form">
+                    <form method="post" name="form" id="form" class="row contact-form" action="sentmail.php">
                         <div class="col-md-6">
-                            <input type="text" name="fname" placeholder="First Name" required class="form-control">
+                            <input type="text" name="name" placeholder="Name" required class="form-control">
                         </div>
                         <div class="col-md-6">
-                            <input type="text" name="lname" placeholder="Last Name" required class="form-control">
+                            <input type="text" name="phone" placeholder="Phone" required class="form-control">
                         </div>
                         <div class="col-md-6">
                             <input type="email" name="email" placeholder="Email" required class="form-control">
@@ -160,16 +149,16 @@
                             <input type="text" name="subject" placeholder="Subject" required class="form-control">
                         </div>
                         <div class="col-md-12">
-                            <textarea name="message" class="form-control" required placeholder="Message"></textarea>
+                            <textarea name="msg" class="form-control" required placeholder="Message"></textarea>
                             <input type="submit" value="Send Message" class="message-sub pull-right btn btn-blue">
                         </div>
                     </form>
-                    <div id="success">
+                    <!--<div id="success">
                         <p>Your message was sent succssfully! I will be in touch as soon as I can.</p>
                     </div>
                     <div id="error">
-                        <p>Something went wrong, try refreshing and submitting the form again.</p>
-                    </div>
+                         <p>Something went wrong, try refreshing and submitting the form again.</p>
+                    </div>-->
                 </div>
 
                 <!--<div class="col-md-3 item_right">
@@ -275,5 +264,26 @@ JavaScripts
 <script src="syntax-highlighter/scripts/prettify.min.js"></script>
 <script type="text/javascript">$.SyntaxHighlighter.init();</script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+    $("#form").submit(function(e) {
+        e.preventDefault(); // avoid to execute the actual submit of form.
+        var url = "sentmail.php"; // the script where you handle the form input.
+        $.ajax({
+            type: "POST",
+            url: url,
+            async:false,
+            dataType:"json",
+            data: $("#form").serialize(), // serializes the form's elements.
+            success: function (response) {
+                if(response.status === "success") {
+                    alert(response.message); // show response from the php script.
+                    $("#form")[0].reset();
+                } else if(response.status === "error") {
+                    alert(response.message);
+                }
+            }
+        });
+    });
+</script>
 </body>
 </html>

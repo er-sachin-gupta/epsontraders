@@ -44,9 +44,9 @@
                     <li>
                         <a href="products.php">Products</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a href="gallery.php">Gallery</a>
-                    </li>
+                    </li>-->
                     <li>
                         <a href="contact.php">Contact us</a>
                     </li>
