@@ -1,3 +1,6 @@
+<?php
+$page =   basename($_SERVER['PHP_SELF']);
+?>
 <header id="head" class="navbar-default sticky-header header5">
     <div class="top-head">
         <div class="container">
@@ -35,19 +38,19 @@
             <!-- main nav -->
             <nav class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="current mega-menu">
+                    <li class="<?php if($page == 'index.php'){echo 'current';} ?>">
                         <a href="index.php">Home</a>
                     </li>
-                    <li>
+                    <li class="<?php if($page == 'our-profile.php'){echo 'current';} ?>">
                         <a href="our-profile.php">Our Profile</a>
                     </li>
-                    <li>
+                    <li class="<?php if($page == 'products.php'){echo 'current';} ?>">
                         <a href="products.php">Products</a>
                     </li>
                     <!--<li>
                         <a href="gallery.php">Gallery</a>
                     </li>-->
-                    <li>
+                    <li class="<?php if($page == 'contact.php'){echo 'current';} ?>">
                         <a href="contact.php">Contact us</a>
                     </li>
                 </ul>

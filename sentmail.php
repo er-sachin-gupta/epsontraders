@@ -60,9 +60,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	  $message = test_input($_POST["msg"]);*/
 
 
-	$to = "sgs.engineer@gmail.com";
+	$to = "info@apsontraders.com";
 	$msgsubject = "ApsonTraders.com : " . $subject;
-	$headers .= 'From:' . $email . "\r\n";
+	$headers .= 'From: noreply@apsontraders.com' . "\r\n";
 	//$headers .= 'Cc: sgs.engineer@yahoo.co.in' . "\r\n";
 
 	$msgbody = "Following Message is recieved : " . "\n\n" . "Name : " .$name . "\n\n" . "Email : " .$email . "\n\n" . "Phone : " . $phone. "\n\n" . "Subject : " . $subject . "\n\n" . "Message : " . $message . "\n\n". "Thanks";

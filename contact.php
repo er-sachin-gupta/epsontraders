@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <![endif]-->
     <!-- Meta Description -->
-    <meta name="description" content="Apson Traders ">
+    <meta name="description" content="Contact Apson Traders - Deals in selling of New and Used Machines.">
     <!-- Meta Keyword -->
     <meta name="keywords" content="Apson Traders">
     <!-- meta character set -->
@@ -17,7 +17,7 @@
     <meta name="author" content="Sodiz Technologies, http://www.sodiztechnologies.com" />
 
     <!-- Site Title -->
-    <title>Apson Traders | apsontraders.com</title>
+    <title>Contact Apson Traders | apsontraders.com</title>
 
     <link rel="shortcut icon" href="image/favicon.ico">
 
@@ -72,7 +72,6 @@
     <link type="text/css" rel="stylesheet" href="css/main.css">
     <!-- CSS media queries -->
     <link type="text/css" rel="stylesheet" href="css/media-queries.css">
-    <link id="themeColorChangeLink" type="text/css" rel="stylesheet" href="css/colors/c0.css">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
