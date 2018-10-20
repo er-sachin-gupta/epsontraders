@@ -29,7 +29,6 @@
                         <li><a href="index.php">Home <i class="fa fa-angle-right"></i></a></li>
                         <li><a href="our-profile.php">Our Profile <i class="fa fa-angle-right"></i></a></li>
                         <li><a href="products.php">Products <i class="fa fa-angle-right"></i></a></li>
-                        <li><a href="gallery.php">Gallery <i class="fa fa-angle-right"></i></a></li>
                         <li><a href="contact.php">Contact <i class="fa fa-angle-right"></i></a></li>
                     </ul>
                 </div>
